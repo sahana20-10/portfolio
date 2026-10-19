@@ -1037,7 +1037,7 @@ textarea {
 /* -------------------- Projects -------------------- */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-auto-rows: 1fr;
   align-items: stretch;
   gap: 20px;
@@ -1133,6 +1133,11 @@ textarea {
 
 .project-footer a:hover {
   color: var(--accent);
+}
+
+.project-card--cyber:hover {
+  border-color: rgba(139, 92, 246, .4);
+  box-shadow: 0 20px 55px rgba(139, 92, 246, .16), 0 0 34px rgba(34, 211, 238, .12);
 }
 
 /* -------------------- Certifications -------------------- */
@@ -1446,7 +1451,7 @@ footer .container {
   }
 
   .about-photo {
-    height: 100%;
+    height: 600px;
   }
 
   .skills-grid,
